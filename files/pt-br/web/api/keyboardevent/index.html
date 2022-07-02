@@ -49,15 +49,15 @@ translation_of: Web/API/KeyboardEvent
  <div class="warning"><strong>Aviso:</strong> Isso foi removido dos Eventos DOM de nível 3. Isso é apenas suportado no IE.</div>
  </dd>
  <dt>{{domxref("KeyboardEvent.charCode")}} {{Deprecated_inline}}{{Readonlyinline}}</dt>
- <dd>Returns a {{jsxref("Number")}} representing the Unicode reference number of the key; this attribute is used only by the <code>keypress</code> event. For keys whose <code>char</code> attribute contains multiple characters, this is the Unicode value of the first character in that attribute. In Firefox 26 this returns codes for printable characters.
+ <dd>Retorna um {{jsxref("Number")}} representando um numero de referência Unicode da tecla pressionada; esse atributo é usado somente pelo evento <code>keypress</code>. Para as teclas em que o atributo <code>char</code> contenha multiplos caracteres, este é o valor Unicode do primeiro caractere neste atributo. No Firefox 26 isto retorna um código para caracteres imprimíveis.
  <div class="warning"><strong>Aviso:</strong> Este atributo esta depreciado; você deve usar <code>key</code> no lugar, se disponivel.</div>
  </dd>
  <dt>{{domxref("KeyboardEvent.code")}} {{Readonlyinline}}</dt>
- <dd>Returns a {{domxref("DOMString")}} with the code value of the key represented by the event.</dd>
+ <dd>Rotorna um {{domxref("DOMString")}} com o valor do código da tecla representada pelo evento.</dd>
  <dt>{{domxref("KeyboardEvent.ctrlKey")}} {{Readonlyinline}}</dt>
- <dd>Returns a {{jsxref("Boolean")}} that is <code>true</code> if the <kbd>Ctrl</kbd> key was active when the key event was generated.</dd>
+ <dd>Retorna um {{jsxref("Boolean")}} que é <code>true</code> se a tecla <kbd>Ctrl</kbd> estava ativa quando a tecla do evento foi pressionada.</dd>
  <dt>{{domxref("KeyboardEvent.isComposing")}} {{Readonlyinline}}</dt>
- <dd>Returns a {{jsxref("Boolean")}} that is <code>true</code> if the event is fired between after <code>compositionstart</code> and before <code>compositionend</code>.</dd>
+ <dd>Retorna um {{jsxref("Boolean")}} que é <code>true</code> se o evento é disparado entre: depois, <code>compositionstart</code> e antes, <code>compositionend</code>.</dd>
  <dt>{{domxref("KeyboardEvent.key")}} {{Readonlyinline}}</dt>
  <dd>Returns a {{domxref("DOMString")}} representing the key value of the key represented by the event.</dd>
  <dt>{{domxref("KeyboardEvent.keyCode")}} {{deprecated_inline}}{{Readonlyinline}}</dt>
